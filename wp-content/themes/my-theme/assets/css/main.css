@@ -1,0 +1,196 @@
+html {
+    font-size: 62.5%;
+    font-family: "Dosis";
+}
+
+body {
+    color: #333;
+    margin: 0;
+}
+
+header {
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-right: 5rem;
+    font-weight: bold;
+}
+
+nav ul li {
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+
+}
+
+#banner {
+    text-align: center;
+    padding: 15rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#banner_baseline {
+    font-size: 1.8rem;
+    color: grey;
+    font-weight: lighter;
+    margin: .5rem 0;
+}
+
+#banner_brown_title {
+    font-size: 3rem;
+    font-weight: lighter;
+    margin: .5rem 0;
+    text-transform : uppercase;
+}
+
+#banner_green_title {
+    font-size: 3rem;
+    font-weight: lighter;
+    color: #95D741;
+    margin: .5rem 0;
+    text-transform : uppercase;
+}
+
+#banner_register_link {
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 0.8rem;
+    margin: .5rem 0;
+    text-transform : uppercase;
+}
+
+#conference {
+    text-align: center;
+    padding: 15rem;
+
+}
+
+#conference_title {
+    text-transform : uppercase;
+    letter-spacing: .2rem;
+    font-size: 3rem;
+    color: #484949;
+    font-weight: lighter;
+    margin: .5rem 0;
+}
+
+#line {
+    font-size: 2rem;
+    letter-spacing: 0;
+    user-select: none;
+    -moz-user-select: none;
+    margin: 1% 0 2% 0;
+    opacity: 0.5;
+}
+
+#conference_content {
+    font-size: 2rem;
+    font-weight: lighter;
+    color: grey;
+}
+
+#conference_image {
+    padding: 20rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#program {
+  text-align: center;
+  padding: 15rem;
+  background-color: #FCFAE1;
+}
+
+#program_content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#program_title {
+  text-transform : uppercase;
+  letter-spacing: .2rem;
+  font-size: 3rem;
+  color: #484949;
+  font-weight: lighter;
+  margin: .5rem 0;
+}
+
+#program_vegetables_title {
+  text-transform : uppercase;
+  letter-spacing: .2rem;
+  font-size: 1.5rem;
+  color: green;
+}
+
+#program_vegetables_program {
+  font-size: 1.2rem;
+  color: #484949;
+}
+
+#program_vegetables_hour {
+  padding: 1rem;
+}
+
+#program_vegetables_description {
+  font-family: Arial;
+  font-weight: lighter;
+  text-align: left;
+}
+
+#program_activities_title {
+  text-transform : uppercase;
+  letter-spacing: .2rem;
+  font-size: 1.5rem;
+  color: green;
+}
+
+#program_activities_program {
+  font-size: 1.2rem;
+  color: #484949;
+}
+
+#program_activities_hour {
+  padding: 1rem;
+}
+
+#program_activities_description {
+  font-family: Arial;
+  font-weight: lighter;
+  text-align: left;
+}
+
+#program_register_link {
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 0.8rem;
+    margin: .5rem 0;
+    text-transform : uppercase;
+}
+
+footer {
+    background-color: dimgrey;
+}
+
+footer p {
+    font-size: 2rem;
+    padding: 3rem;
+    color: white;
+}
